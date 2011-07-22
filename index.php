@@ -17,6 +17,7 @@
   </head>
   <body>
 
+  TEST
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function() {
 		$('#rotator').cycle({
