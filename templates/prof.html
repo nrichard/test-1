@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ pageTitle }}{% endblock %}
+
+{% block content %}
+
+{% for k, prof in variable %} 
+  <h1>{{ k +1 }} {{ prof['name'] }} {{ prof['lastname'] }}</h1>
+{% endfor %}
+    
+{% endblock content %}
+
+{% block footer %}{{ footer }}{% endblock footer %}
